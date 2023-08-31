@@ -114,7 +114,7 @@ const GameScreen = (props) => {
 					data={guessRounds}
 					renderItem={(itemData) => (
 						<GuessLogItem
-							roundsNumber={guesRoundListLength - itemData.index}
+							roundNumber={guesRoundListLength - itemData.index}
 							guess={itemData.item}
 						/>
 					)}

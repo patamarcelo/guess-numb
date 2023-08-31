@@ -4,7 +4,6 @@ const PrimaryButton = (props) => {
 	const { children, onPress } = props;
 
 	const pressHandler = () => {
-		console.log("pressed!!");
 		onPress();
 	};
 

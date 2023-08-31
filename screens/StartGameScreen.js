@@ -20,7 +20,6 @@ const StartGameScreen = (props) => {
 
 	const confirmInputHandler = () => {
 		const choseNumber = parseInt(entNumber);
-		console.log(choseNumber);
 
 		if (isNaN(choseNumber) || choseNumber <= 0 || choseNumber > 99) {
 			Alert.alert(
